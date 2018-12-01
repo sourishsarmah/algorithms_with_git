@@ -6,7 +6,12 @@ Dijkstra's algorithm is an algorithm for finding the shortest paths between node
 
 Input Consist of -  
 
-- A graph with no negative cycle
+- Number of vertices in the graph
+- Number of edges in the graph
+- List of edges in following format  
+
+        source_vertex  destination_vertex  weight_of_the_edge 
+
 - Source node
 - Destination node
 
@@ -17,10 +22,6 @@ Output consist of -
 - A list consisting of the list of nodes it has to traverse(i.e path)
 - Shortest distance
 
-### Sample Program
-
-The sample program shows how to use the dijkstra algorithm function.  
-[Example Program](sample.py)
 
 ### Sample Input
 
